@@ -1,0 +1,347 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5568995153,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open getpocket.com",
+            "match": {
+              "location": "MyStepdefs.i_open_getpocket_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Sign In via correct email address",
+        "description": "",
+        "id": "sign-in-via-email-and-password;sign-in-via-correct-email-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7431108944,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I sign in",
+            "match": {
+              "location": "MyStepdefs.sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44655712,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see my user name",
+            "match": {
+              "location": "MyStepdefs.i_see_my_user_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1183562450,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I logout",
+            "match": {
+              "location": "MyStepdefs.i_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 612024743,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open getpocket.com",
+            "match": {
+              "location": "MyStepdefs.i_open_getpocket_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Check validation message with invalid user name",
+        "description": "",
+        "id": "sign-in-via-email-and-password;check-validation-message-with-invalid-user-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1092485250,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I sign invalid user name",
+            "match": {
+              "location": "MyStepdefs.i_sign_invalid_user_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 514461486,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the validation error message",
+            "match": {
+              "location": "MyStepdefs.i_should_see_the_validation_error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 426181978,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open getpocket.com",
+            "match": {
+              "location": "MyStepdefs.i_open_getpocket_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Check validation message with invalid passwword",
+        "description": "",
+        "id": "sign-in-via-email-and-password;check-validation-message-with-invalid-passwword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2423546531,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I sign invalid password",
+            "match": {
+              "location": "MyStepdefs.i_sign_invalid_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 924753787,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see the validation error message",
+            "match": {
+              "location": "MyStepdefs.i_should_see_the_validation_error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 395821787,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open getpocket.com",
+            "match": {
+              "location": "MyStepdefs.i_open_getpocket_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Check validation message with empty fields",
+        "description": "",
+        "id": "sign-in-via-email-and-password;check-validation-message-with-empty-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394422411,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I sign in with empty fields",
+            "match": {
+              "location": "MyStepdefs.i_sign_in_with_empty_fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167668262,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see the validation error messages",
+            "match": {
+              "location": "MyStepdefs.i_should_see_the_validation_error_messages()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 513579262,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open getpocket.com",
+            "match": {
+              "location": "MyStepdefs.i_open_getpocket_com()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "I want to check that my list does\u0027t display after login by another user",
+        "description": "",
+        "id": "sign-in-via-email-and-password;i-want-to-check-that-my-list-does\u0027t-display-after-login-by-another-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3663948412,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I sign in",
+            "match": {
+              "location": "MyStepdefs.sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95771260,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I save numbers of the news",
+            "match": {
+              "location": "MyStepdefs.i_save_numbers_of_the_news()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 977868253,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I logout",
+            "match": {
+              "location": "MyStepdefs.i_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2060119156,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I login by another user",
+            "match": {
+              "location": "MyStepdefs.i_login_by_another_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14454783,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I check news from first loginned user",
+            "match": {
+              "location": "MyStepdefs.i_check_news_from_first_loginned_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@content"
+          }
+        ]
+      }
+    ],
+    "name": "Sign In via Email and password",
+    "description": "",
+    "id": "sign-in-via-email-and-password",
+    "keyword": "Feature",
+    "uri": "signIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@signIn"
+      }
+    ]
+  }
+]
